@@ -1,0 +1,30 @@
+1.新增終端機->輸入node-sass -v 若是動作成功會出現版號->node-sass 6.0.1
+2.開始監聽此網頁->輸入 node-sass -o css scss -w 動作成功，終端機是不會出現任何動作
+3.結束監聽快捷鍵->ctrl+c
+
+將sass安裝至網頁上:
+將下載下來的資料夾中，選擇sass資料夾，複製貼上到需要使用sass的網頁資料夾中
+到設定->右上角左邊第一個icon點下去
+"editor.formatOnSave": false,
+; "editor.formatOnSave": false 監控vs code 要改成false，結束監控要改成ture
+; 開始監控:新增終端機，輸入 node-sass -o css scss -w ，就開始監控，結束監控快捷建:ctrl+c
+
+打開sass的_variables.sass
+修改顏色
+// scss-docs-start theme-color-variables
+$primary:       #008374 !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+可以去修改顏色->去搜尋broadcolor
+複製你要的色號
+色號要有 # 或是 $
+
+-靜態網頁要html(期末)-
+-檔案名稱不可以有中文!!!要是英文小寫!!!(期末)-
+-網頁要把東西分好資料夾(期末)-
